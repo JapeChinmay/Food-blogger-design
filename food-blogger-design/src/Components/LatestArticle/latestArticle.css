@@ -1,0 +1,38 @@
+.Heading-article-section {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 90px;
+
+  letter-spacing: 0.04em;
+
+  /* primary */
+
+  color: #0e2368;
+}
+
+.article-container {
+  width: 100%;
+  height: 100%;
+}
+
+.col-container {
+  width: 100%;
+  height: 100%;
+}
+.container-card {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.main-card {
+  display: flex;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: space-evenly;
+}

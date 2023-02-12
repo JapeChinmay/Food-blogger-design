@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&family=Open+Sans:wght@300;400&family=Playfair+Display:wght@400;600&family=Roboto+Mono&family=Rubik:wght@400;500;700&family=Source+Sans+Pro:wght@300&display=swap");
+
+.footer-div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  align-items: center;
+  background-color: #f8f8f8;
+  top: 2rem;
+}
+
+.logo-footer {
+  max-width: 10%;
+  max-height: 10vh;
+  margin: 2rem;
+}
+
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  margin: 2rem;
+  margin-top: 3rem;
+  gap: 1rem;
+
+  line-height: 23px;
+}
+
+.contact-us h3 {
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  color: #0e2368;
+}
+
+.footer-more-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 3rem;
+  gap: 1rem;
+}
+
+li {
+  list-style: none;
+  text-align: left;
+  list-style-position: outside;
+}
+.more {
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  color: #0e2368;
+}
+
+li {
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  size: 15px;
+  margin-bottom: 1rem;
+}
+.social-links img {
+  margin: 1rem;
+}
+.social-links {
+  gap: 5px;
+}
+
+.heading {
+  margin-top: 0;
+  margin-right: 2rem;
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  font-size: x-large;
+  color: #0e2368;
+}
+
+.copyright-footer {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.6559px;
+  line-height: 25px;
+  /* or 171% */
+
+  text-align: center;
+}
